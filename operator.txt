@@ -1,0 +1,46 @@
+What is operators?
+-------------------
+Operators are symbols used to process data and give some result. 
+for example +, -, /, * these some operators example.
+
+each operators work upon 1 or 2 or 3 value. 
+    operators which works upon one value is called unery operators
+    operators which works upon two value is called binary operators
+    operators which works upon three value is called ternary operators
+
+binary operators.
+    binary operators has two value, one value on left and one value on right side of operators
+    example 
+        c = a + b
+        d = a - b 
+        x = a * b 
+
+    categories of operators
+
+        athematic operators 
+            are used to mathematical operations  for example +,-,*,/,% 
+
+        relational operators
+            are used to compare values. relational operators always return only true/1 or false/0. 
+             == equal to (are used to compare 2 values, if both are value are same it give true else false)
+             result = a==b
+             != not equal to (are used to compare 2 values, if both are value are not same it give true else false)
+             result = a!=b
+             < less then (used to check whether 1st value is less then 2nd value, if yes it return true else false)
+             result = a<b
+             > greater then (used to check whether 1st value is greater then 2nd value, if yes it return true else false)
+             result = a>b
+             <= less then or equal to (used to check whether 1st value is less or equal to 2nd value, if yes it return true else false)
+             result = a<=b
+             >= greater then or equal to  (used to check whether 1st value is greater then or equal to 2nd value, if yes it return true else false)
+             result = a>=b
+
+        logical operators
+            used to combine two or more relational expression imagine situaltion where you need to compare a with b & b with c. you will use relational operators twice then you have to put logical operators between two relational expression. 
+                && and (return true if both relational expression are true otherwise false)
+                || or  (return true if any one or both relational expression are true otherwise false)
+                !  not (return compliments )
+            a == b && b == c
+            a == b || b == c
+            ! a == b 
+
