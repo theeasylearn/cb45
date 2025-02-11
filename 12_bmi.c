@@ -1,5 +1,4 @@
 // write a program that calculate bmi of user
-
 #include<stdio.h>
 void main()
 {
