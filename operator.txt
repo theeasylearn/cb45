@@ -4,7 +4,7 @@ Operators are symbols used to process data and give some result.
 for example +, -, /, * these some operators example.
 
 each operators work upon 1 or 2 or 3 value. 
-    operators which works upon one value is called unery operators
+    operators which works upon one value is called unary operators
     operators which works upon two value is called binary operators
     operators which works upon three value is called ternary operators
 
@@ -44,3 +44,21 @@ binary operators.
             a == b || b == c
             ! a == b 
 
+        assignment operators
+            assignment operators are used to assign value to variables. one vary useful assignment operators are = other useful assignment operators also called shortend assignment operators
+                += it is used a+=b in case of a = a + b
+                -= it is used a-=b in case of a = a - b
+                *= it is used a*=b in case of a = a * b
+                /= it is used a/=b in case of a = a / b
+                %= it is used a%=b in case of a = a % b
+
+        unary operators
+        operators which works upon one value is called unary operators
+
+        prefix 
+            a = a + 1 can be written as ++a;
+
+        postfix
+            postfix example 
+            assume a = 10
+            b = a++ // b = 10 and a = 11
