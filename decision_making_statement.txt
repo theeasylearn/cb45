@@ -19,3 +19,15 @@ sometimes we need to execute few line of code conditionally. in such case we nee
 
     example
     
+2) if else decision making statements
+    here we also check some condition (relational expression). if condition is true then only code block given inside {} pair will execute after condition will execute otherwise code block given after else inside {} will execute. 
+     syntax 
+    -------------------------------------------------
+        if (relational expression)
+        {
+
+        }
+        else 
+        {
+            
+        }
