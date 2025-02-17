@@ -4,3 +4,8 @@
 
 3) write a program to findout elder brother from two brother age. 
 
+
+4) write a program to calculate bmi and display obesity level of person from given height
+    (foot and inch) and weight.
+
+5) 
