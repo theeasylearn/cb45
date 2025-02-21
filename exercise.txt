@@ -43,3 +43,9 @@ loop
 input : 1234 reverse : 4321
 5) write a program to check whether given number is palindrome or not
 input : 1331 reverse 1331 
+6) write a program to check whether given number is armstrong number or not 
+   input : 153 = 1*1*1 + 5*5*5 + 3*3*3 = 153
+   // some example of armstrong values are 153, 370, 371, 407 1634 8208
+7) write a program to check whether given number is Perfect numbers or not 
+
+8) write a program to check whether given number is Amicable numbers:
