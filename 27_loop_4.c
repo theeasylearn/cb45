@@ -21,14 +21,11 @@ void main()
     printf("Enter amount"); // 4321
     scanf("%d", &amount);
     reverse_amount = 0;
-
     while(amount>0) 
     {
         reminder = amount % 10;  //2                          // 1
         reverse_amount = (reverse_amount * 10) + reminder; // 12
         amount = amount / 10;  // 43.2
     }
-
     printf("\n %d", reverse_amount);
-    
 }
