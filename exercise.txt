@@ -49,3 +49,7 @@ input : 1331 reverse 1331
 7) write a program to check whether given number is Perfect numbers or not 
 
 8) write a program to check whether given number is Amicable numbers:
+
+do while loop 
+1) Find GCD (Greatest Common Divisor) of two numbers.
+2) Find LCM (Least Common Multiplier) of two numbers.

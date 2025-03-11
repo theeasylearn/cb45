@@ -38,3 +38,20 @@ for(;;)
 {
     //code 
 }
+
+3) do while loop 
+  --------------------------------------
+  do while loop is exit control loop. do while always execute at least once. then condition is checked. if condition is true loop body will execute again and so on. 
+  syntax 
+  do 
+  {
+
+  }while(condition);  
+  example 
+  //100 90 80 70 60 .... 10
+  count = 100;
+  do 
+  {
+     print("%d",count);
+     count=count - 10;
+  }while(count>=10);
