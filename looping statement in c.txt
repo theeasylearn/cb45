@@ -55,3 +55,8 @@ for(;;)
      print("%d",count);
      count=count - 10;
   }while(count>=10);
+
+
+nested loop 
+    when we use any loop inside any other loop, it is nested loop. we can use for loop inside while loop, or while loop inside for loop. we can use do while inside for/while loop or vice versa. 
+

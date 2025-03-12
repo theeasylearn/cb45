@@ -11,3 +11,5 @@ void main()
     printf("Area of circle = %f",area);
 
 }
+
+BODOMAS
