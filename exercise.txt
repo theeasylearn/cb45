@@ -59,3 +59,12 @@ nested loop
     2) https://journaldev.nyc3.cdn.digitaloceanspaces.com/2019/01/pyramid-pattern-programs-in-java.png
 
 implement concept of queue using array (menu driven program)
+
+array
+-------------------
+write a program to reverse one array into another array & display 
+write a program to make sum & average of all elements in array and then display it. 
+write a program to maximum and minimum number from unsorted array.
+
+String 
+write a program to count vowels, digits and consonants in string
