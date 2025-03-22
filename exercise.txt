@@ -68,3 +68,15 @@ write a program to maximum and minimum number from unsorted array.
 
 String 
 write a program to count vowels, digits and consonants in string
+write a program to reverse given string 
+    original string = dog 
+    reverse string = god 
+write a program to compare two string. letter by letters. (case matters)
+    1st case 
+    1st string = india 
+    2nd string = india 
+    output = both string are same 
+    2nd case 
+    1st string = india 
+    2nd string = indies
+    output = both string are not same 
