@@ -28,7 +28,6 @@ void main()
             /* pulav  */ {41, 23, 39, 50, 14, 27, 35},
             /* dosa */ {30, 47, 19, 45, 22, 38, 11}
         };    
-    int total_
-    sales [3][7];
+    int total_sales [3][7];
 
 }
