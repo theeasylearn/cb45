@@ -1,0 +1,12 @@
+what is string?
+string is sequence of letters that ends with \0 (null). 
+some example of string 
+name,surname,address, city etc 
+
+there is no datatype in c language to store string. so we use 1d array of character to store string.
+
+char name[32],surname[32],address[512];
+
+how to store many student names. to store many names (string) we can create array of string. 2d array of char is 1d array of string 
+how to create 2d array of char?
+char name[6][32];
