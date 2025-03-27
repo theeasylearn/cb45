@@ -1,0 +1,39 @@
+introduction to structure
+-------------------------------
+structure is special type of user defined datatype. structure is used to create special type of variable which has other variables of built in type or user defined type. 
+it is basically used to group related variable together. 
+first we have to create structure using  struct keyword then only we can create variable of structure type. 
+how to declare structure?
+struct structure-name {
+    //create variables 
+    datatype name;
+    datatype name;
+    .............
+};
+
+struct student 
+{
+    char name[32];
+    int age;
+    float weight;
+    char gender;
+};
+variable declared inside structure is called member variable.
+
+how to declare structure type variable
+struct structure-name variable-name;
+struct student s1;
+
+how to take input inside structure member?
+scanf("%d",&s1.age);
+scanf("%f",&s1.weight);
+gets(s1.name);
+scanf("%c",&s1.gender);
+
+how to display structure member?
+printf("%d",s1.age);
+printf("%f",s1.weight);
+printf("%c",s1.gender);
+puts(s1.name);
+
+we can create array of structure. and we can also create array in structure.
