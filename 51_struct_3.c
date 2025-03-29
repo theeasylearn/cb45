@@ -22,36 +22,32 @@ void main()
     struct resultsheet list[SIZE];
     int index = 0;
     int row = 0;
-    while(row<SIZE)
+    while (row < SIZE) // outer while loop
     {
-        printf("Enter %d student detail",row+1);
+        printf("Enter %d student detail", row + 1);
         fflush(stdin);
         printf("\nEnter Name");
         gets(list[row].name);
         printf("Enter marks in exam\n");
         list[row].total = 0;
-        index=0;
-        while(index < 3)
+        index = 0;
+        while (index < 3) // inner while loop
         {
             printf("Enter %d subject marks", index + 1);
-            scanf("%d",&list[row].marks[index]);
+            scanf("%d", &list[row].marks[index]);
             list[row].total += list[row].marks[index];
             list[row].average = list[row].total / 3;
-            if(list[row].marks[index] >= 35)
-            {
-                list[row].PassFail = 'P';
-            }
-            else
-            {
-                list[row].PassFail = 'F';
-            }
             index++;
         }
+        if (list[row].marks[0] >= 35 && list[row].marks[1] >= 35 && list[row].marks[2] >= 35)
+            list[row].PassFail = 'P';
+        else
+            list[row].PassFail = 'F';
         row++;
     }
     printf("\nName      Maths       Science     English     total       Percentage      Result \n");
-    row=0;
-    while(row<SIZE)
+    row = 0;
+    while (row < SIZE)
     {
         printf("\n%s            %d       %d     %d     %d       %.2f      %c \n", list[row].name, list[row].marks[0], list[row].marks[1], list[row].marks[2], list[row].total, list[row].average, list[row].PassFail);
         row++;
