@@ -25,8 +25,7 @@ What is functions?
         -----------------------------------
         return type function-name(arguments)
         {
-            code.......
-            
+            code...
         }
 
         how to use/call/run/execute 
