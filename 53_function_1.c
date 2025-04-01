@@ -16,6 +16,7 @@ void PrintLetter(char letter, int count)
     }
     printf("\n");
 }
+
 // with return value without argument function
 float GetPi()
 {

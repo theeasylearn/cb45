@@ -80,3 +80,6 @@ write a program to compare two string. letter by letters. (case matters)
     1st string = india 
     2nd string = indies
     output = both string are not same 
+-----------------------------------------------------------------------------------------
+1) write a program to convert given inches into foot and remaining inches return result using function 
+2) write a program to convert given grams into kilograms and remaining grams  return result using function

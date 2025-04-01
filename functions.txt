@@ -7,6 +7,7 @@ What is functions?
         4 body (block of code) (required)
 
     each and every function should do only one task. the main idea of using function is not to repeat code in program. if we repeat code there will be many issue while updating code. but if we use functions code will be shorter, easy to understand and easy to change. 
+    function can return at most 1 value.
 
     types of function
         Library function 
