@@ -34,5 +34,13 @@ What is functions?
         function-name();
 
 what is recursion?
+---------------------
 when function call it self repeatedly until some condition is evaluated as false, is called recursion.
 recursion is difficult to understand therefore change. it must last option to solve any problem as it very resource hungry approach means it will use too much processing power and memory. 
+
+rules 
+-------------------------------------------------------------------------------
+1) each and every function in recursion will always complete. it will not remain uncomplete. 
+2) function called in recursion will always complete in reverse order of calling.
+3) each argument & we pass in recursion & local variables created in function occupy separate memory location for each function call.
+4) must have some condition which stop recursion

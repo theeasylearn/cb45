@@ -1,0 +1,21 @@
+what is pointer?
+ pointer is special type of variable in c language which can store only other variable's address. it is specially required in case we allocate memory in program as and when needed in such case address of allocated memory is not fixed therefore we must store it somewhere. in such situation we need pointer variable.
+ here we need to learn two things first. 
+    how to create pointer variable and store address of some other variable in it 
+    how to dynamically allocate memory in c program. 
+
+how to create pointer variable?
+    datatype *variable-name = &other-variable-name 
+example 
+    int age = 30;
+    int *p_age=&age;
+
+    //access value of age variable using pointer 
+    printf(" age = %d",*p_age);
+
+    //change age via pointer
+    *p_age = 31;
+    printf(" age = %d",*p_age);
+
+    //use p_age for scan f 
+    scanf("%d",p_age);
